@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        width: 100%;
+        background: lightyellow;
+    }
+
+    .register {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 15%;
+        display: flex;
+        /* border: 1px solid red; */
+    }
+
+    .register .left {
+        height: 99.4vh;
+        width: 500px;
+    }
+
+    .left img {
+        height: 99.4vh;
+        width: 500px;
+    }
+    .right{
+        position: relative;
+        height: 99.4vh;
+        width: 500px;
+        /* border: 1px solid red; */
+    }
+    .right p{
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 20px;
+
+    }
+    .right input{
+        position: relative;
+        width: 90%;
+        padding: 15px;
+        border: 1px solid rgb(234, 188, 63);
+        margin-left: 25px;
+        outline-color: rgb(234, 188, 63);
+        border-radius: 5px;
+    }
+    #select{
+        position: relative;
+        width: 90%;
+        padding: 15px;
+        margin-left: 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(234, 188, 63);
+    }
+    .btn{
+        position: relative;
+        width: 200px;
+        padding-top: 20px;
+        left: 54%;
+        
+    }
+    .btn input{
+        background: transparent;
+    }
+    .btn input:hover{
+        transition: 0.5s ease-in-out;
+        background: rgb(234, 188, 63);
+        color: black;
+        cursor: pointer;
+    }
+    
+
+</style>
+
+<body>
+    <div class="register">
+        <div class="left">
+            <img src="register.jpg" alt="">
+        </div>
+        <div class="right">
+            <form action="">
+                <p>Name</p>
+                <input type="text" name="name" id="name">
+                <p>Email</p>
+                <input type="email" name="email" id="email">
+                <p>Password</p>
+                <input type="password" name="password" id="password">
+                <p>City</p>
+                <input type="text" name="name" id="name">
+                <p>State</p>
+                <select name="" id="select">
+                    <option value="">Select state...</option>
+                    <option value="bihar">Bihar</option>
+                    <option value="jharkhand">Jharkhand</option>
+                    <option value="new delhi">New Delhi</option>
+                    <option value="mumbai">Mumbai</option>
+                    <option value="uttar pradesh">Uttar Pradesh</option>
+                    <option value="utrakhand">Utrakhand</option>
+                    <option value="madhya pradesh">Madhya Pradesh</option>
+                    <option value="gujrat">Gujrat</option>
+                </select>
+                <p>Zip</p>
+                <input type="text" name="name" id="name">
+                <div class="btn">
+                    <input type="button" value="Register" name="btn" id="btn">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
