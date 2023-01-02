@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(image.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background: white;
+    padding-top: 20px;
+}
+.logo{
+    position: absolute; 
+    width: 25%;
+    text-align: center;
+    
+}
+.logo h1{
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.logo p{
+    font-size: 18px;
+    color: rgb(73, 128, 204);
+}
+.nav ul{
+    display: flex;
+    width: 60%;
+    margin-left: 500px;
+    padding-top: 15px;
+    
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+ul li{
+    padding-left: 40px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+ul a li:hover{
+    color: rgb(73, 128, 204);
+}
+.login{
+    /* margin-left: 1200px; */
+    position: relative;
+    margin-bottom: 20px;
+    float: right;
+    
+}
+.login a{
+    position: absolute;
+    color: rgb(73, 128, 204);
+    text-decoration: none;
+    text-align: center;
+    right: 100px;
+    bottom: 0px;
+    font-size: 18px;
+}
+.login a:hover{
+    color: red;
+}
+main h3{
+    color: whitesmoke;
+    margin-left: 250px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.big p{
+    color: whitesmoke;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 8rem;
+    font-weight: bolder;
+    letter-spacing: 30px;
+}
+.down h3{
+    color: whitesmoke;
+    margin-left: 250px;
+    margin-top: 200px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+button{
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    background: rgb(73, 128, 204);
+    color: whitesmoke;
+}
+#another{
+    display: block;
+}
+.login2{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: whitesmoke;
+    top: 30%;
+    left: 75%;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.login2 p{
+    margin-left: 15px;
+    padding: 10px;
+}
+.login2 input{
+    position: relative;
+    width: 80%;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 25px;
+    outline-color: lightblue;
+    border: 1px solid rgb(216, 210, 210);
+    border-radius: 5px;
+}
+.login2 .check{
+    position: relative;
+    width: 80%;
+    padding: 15px 0px;
+}
+.login2 .check input{
+    width: 18px;
+    height: 18px;
+}
+.btn input:hover{
+    transition: 0.5s ease-in-out;
+    background: rgb(73, 128, 204);
+    color: white;
+}
